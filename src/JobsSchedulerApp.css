@@ -1,0 +1,50 @@
+.JobsSchedulerApp {
+  text-align: center;
+}
+
+.JobsSchedulerApp-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.JobsSchedulerApp-title {
+  font-size: 1.5em;
+}
+
+.JobsSchedulerApp-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+header {
+  top: 0;
+  position: fixed;
+  min-height: 100px;
+  width: 100%;
+  color: #fff;
+  /* background: rgb(105,105,110); */
+  background: linear-gradient(180deg, #ccd4d6 0%, #757b7e 0%, #ccd4d6 99%);
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  min-height: 100px;
+  width: 100%;
+  color: #fff;
+/*   background: rgb(105,105,110);
+ */
+ background: linear-gradient(0deg, #ccd4d6 0%, #757b7e 0%, #ccd4d6 99%);
+}
+body, #jobentry-container {
+  background: #ccd4d6;
+  height: 100%;
+  width: 100%;
+  margin-top: 100px;
+}
